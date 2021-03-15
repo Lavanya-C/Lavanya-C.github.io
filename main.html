@@ -7,96 +7,97 @@
     </head>
     <body>
         <div class="flex-container">
-            <div class="flex-child-pic">
+            <center><div class="flex-child-pic">
                 <img id ="img1" src="lavanya.JPG"><br>
                 <name>LAVANYA C</name><br>
                 <student>CSE Student, BIT</student><br>
-                <a href="https://www.linkedin.com/in/lavanya-naik-164a28185"><img id="in"src="in.png"></a> |
+                <a href="https://www.linkedin.com/in/lavanya-naik-164a28185"><img id="in"src="in.png"></a>
                 <a href="https://github.com/Lavanya-C"><img id="git" src="git.png"></a><br><br>
+            </div></center>
+            <div class="all-buttons">
+                <button id="skill" onclick="mySkills()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">lightbulb</i>
+                    <p style="font-size: 30px; color: white;">SKILLS</p></button>
+                <button id="edu" onclick="myEducation()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">school</i>
+                    <p style="font-size: 30px; color: white;">EDUCATION</p></button>
+                <button id="project" onclick="myProject()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">auto_stories</i>
+                    <p style="font-size: 30px; color: white;">PROJECTS</p></button>
+                <button id="exp" onclick="myExperience()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">work</i>
+                    <p style="font-size: 30px; color: white;">EXPERIENCE</p></button>
+                <button id="cont" onclick="myContact()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">contact_mail</i>
+                    <p style="font-size: 30px; color: white;">CONTACT</p></button>
             </div>
+            <div class="bucket">
+                <div id="skills" style="display: none;">
+                <article>
+                    <h2>Skills</h2>            
+                    <p>
+                    Programming Languages   : C, C++, Java<br>
+                    Scripting Languages     : Python, JavaScript, NodeJs<br>
+                    Frontend Technologies   : HTML, CSS<br>
+                    Database                : MySql<br>
+                    </p>
+                    </article>
+                </div>
+                <div id="education" style="display: none;">
+                    <article>
+                        <h2>Education</h2>
+                    <p>B.E., Computer Science and Engineering : BIT, Bangalore-04<br>
+                    PU, PCMB : Vijaya Bifrucated PU College, Bangalore-04<br>
+                    High SChool : Aradhana Academy(ICSE), Banglore-76 
+                    </p>
+                    </article>
+                </div>
+                <div id="projects" style="display: none;">
+                    <h2>Projects</h2>
+                    <article>
+                    <h3>PetSpa Application</h3>
+                    <p>Cross platform mobile application.<br>
+                        Designed and developed to book spa treatments online and to make reservations.<br>
+                        Tech stack: HTML, CSS, PHP<br><br>
+                    </p>
+                    </article>
+                    <article>
+                        <h3>Community Database Management Application</h3>
+                        <p>
+                            Database Management Project.<br>
+                            Developed to maintain the political database of constituencies and to provide information about the ward ,its details and welfare to its members.<br>
+                            Tech stack: MySQL, HTML,CSS<br><br>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Namma Metro Application</h3>
+                        <p>Cross platform mobile application.<br>
+                            Developed to retrieve information about Bangalore metro green line and purple line and to provide
+                            information on the stations, distances & fare between them.<br>
+                            Tech stack: HTML,CSS,JS.
+                        </p>
+                        <p>View Projects on <a href="https://github.com/Lavanya-C">GitHub</a></p>
+                    </article>
+                </div> 
+                <div id="experience" style="display: none;">
+                    <article>
+                        <h2>Experience</h2>
+                    <p>Intern Backend Developer Jan-Feb 2020<br>
+                        Papple Technologies Private Limited<br>
+                        Contributed as a Back end Developer on a quiz application. Project based Web Application
+                        Development using NodeJS and MySql.<br>
+                        <a href="https://drive.google.com/file/d/1yROgwHNpz6SP0j7yM5IHygWVjUU04j0d/view?usp=sharing">View Certificate</a>
+                        
+                    </p>
+                    </article>
+                </div>
+                <div id="contact" style="display: none;">
+                    <article>
+                        <h2>Contact</h2>
+                        <p>Email : lavanyanaik2002@gmail.com<br>
+                        Phone : +(91)9108170247<br> 
+                        LinkedIn : <a href="https://www.linkedin.com/in/lavanya-naik-164a28185"><img id="in1"src="in.png"></a><br>
+                        Resident : Bangalore-76, Karnataka               
+                        </p>
+                    </article>
+                </div>
+            </div> 
         </div>
-        <div class="all-buttons">
-            <button id="skill" onclick="mySkills()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">lightbulb</i>
-                <p style="font-size: 30px; color: white;">SKILLS</p></button>
-            <button id="edu" onclick="myEducation()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">school</i>
-                <p style="font-size: 30px; color: white;">EDUCATION</p></button>
-            <button id="project" onclick="myProject()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">auto_stories</i>
-                <p style="font-size: 30px; color: white;">PROJECTS</p></button>
-            <button id="exp" onclick="myExperience()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">work</i>
-                <p style="font-size: 30px; color: white;">EXPERIENCE</p></button>
-            <button id="cont" onclick="myContact()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">contact_mail</i>
-                <p style="font-size: 30px; color: white;">CONTACT</p></button>
-        </div>
-        <div class="bucket">
-        <div id="skills" style="display: none;">
-        <article>
-            <h2>Skills</h2>            
-            <p>
-            Programming Languages   : C, C++, Java<br>
-            Scripting Languages     : Python, JavaScript, NodeJs<br>
-            Frontend Technologies   : HTML, CSS<br>
-            Database                : MySql<br>
-            </p>
-            </article>
-        </div>
-        <div id="education" style="display: none;">
-            <article>
-                <h2>Education</h2>
-            <p>B.E., Computer Science and Engineering : BIT, Bangalore-04<br>
-               PU, PCMB : Vijaya Bifrucated PU College, Bangalore-04<br>
-               High SChool : Aradhana Academy(ICSE), Banglore-76 
-            </p>
-            </article>
-        </div>
-        <div id="projects" style="display: none;">
-            <h2>Projects</h2>
-            <article>
-            <h3>PetSpa Application</h3>
-            <p>Cross platform mobile application.<br>
-                Designed and developed to book spa treatments online and to make reservations.<br>
-                Tech stack: HTML, CSS, PHP<br><br>
-            </p>
-        </article>
-        <article>
-            <h3>Community Database Management Application</h3>
-            <p>
-                Database Management Project.<br>
-                Developed to maintain the political database of constituencies and to provide information about the ward ,its details and welfare to its members.<br>
-                Tech stack: MySQL, HTML,CSS<br><br>
-            </p>
-        </article>
-        <article>
-            <h3>Namma Metro Application</h3>
-            <p>Cross platform mobile application.<br>
-                Developed to retrieve information about Bangalore metro green line and purple line and to provide
-                information on the stations, distances & fare between them.<br>
-                Tech stack: HTML,CSS,JS.
-            </p>
-            <p>View Projects on <a href="https://github.com/Lavanya-C">GitHub</a></p>
-        </article>
-         </div> 
-         <div id="experience" style="display: none;">
-            <article>
-                <h2>Experience</h2>
-            <p>Intern Backend Developer Jan-Feb 2020<br>
-                Papple Technologies Private Limited<br>
-                Contributed as a Back end Developer on a quiz application. Project based Web Application
-                Development using NodeJS and MySql.<br>
-                <a href="https://drive.google.com/file/d/1yROgwHNpz6SP0j7yM5IHygWVjUU04j0d/view?usp=sharing">View Certificate</a>
-                 
-            </p>
-            </article>
-        </div>
-        <div id="contact" style="display: none;">
-            <article>
-                <h2>Contact</h2>
-            <p>Email : lavanyanaik2002@gmail.com<br>
-            Phone : +(91)9108170247<br>                
-                 
-            </p>
-            </article>
-        </div>
-         </div> 
          <script>
              function mySkills(){
                  var x=document.getElementById('skills');
@@ -138,8 +139,6 @@
                      x.style.display = "none";
                 }
              }
-         </script>       
-        
+         </script>  
     </body>
-    
 </html>

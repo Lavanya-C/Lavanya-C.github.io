@@ -1,18 +1,20 @@
 *{
-    background-color: rgb(83, 81, 81);
-    height: 100%;
+    height: auto;
     width: 100%;
     align-items: center;
+}
+body{
+    height: auto;
+    width: auto;
+    background: -webkit-linear-gradient(400deg,rgb(39, 39, 39), rgb(83, 83, 83),rgb(48, 48, 48));
 }
 .flex-container{
     text-align: center;
     height: fit-content;
     width: fit-content;
     float: left;
-    margin:0% 0% 0% 2%;
     padding: 3%;
     padding-bottom: 0%;
-    display: flex;
 }
 .flex-child-pic{
     padding: 5%;
@@ -32,45 +34,32 @@ student{
     font-size: 30px;
 }
 name,student,a,article,p,h2,h3{
-background-color: transparent;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.flex-child-intro{
-    border: none;
-    outline: none;
-    padding: 5%;
-    background-color: rgb(131, 129, 133);
-    width:55%;
-    height:auto;
-}
-a{
-    cursor: pointer;
     background-color: transparent;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #projects,#education,#skills,#experience,#contact{
     background-color: rgb(131, 129, 133);
+    text-align: justify;
     height:auto;
     width: auto;
     margin:2% 2% 2% 2%;
-    padding: 5%;
+    padding: 2%;
     font-weight: bold;
 }
 #skills{
-    background-color: ;
+    background-color: rgb(231, 154, 184);
 }
 #education{
-
+    background-color: rgb(179, 248, 225);
 }
 #projects{
-
+    background-color:rgb(136, 196, 252) ;
 }
 #experience{
-
+    background-color:rgb(182, 255, 188) ;
 }
 #contact{
-
+    background-color:rgb(232, 167, 252) ;
 }
 .bucket{
     height: fit-content;
@@ -79,34 +68,18 @@ a{
     margin:0% 0% 0% 2%;
     padding: 5%;
 }
-ul{
-    font-size: 25px;
-    margin: 5%;
-    background-color: transparent;
-    padding: 0%;
-    height: fit-content;
-    width: fit-content;
-    text-decoration: none;
-
-}
 a:link{
     text-decoration: none;
     background-color: transparent;
 }
-li{
-    background-color: transparent;
-}
-
 .all-buttons{
-    height: fit-content;
-    width: fit-content;
-    float: left;
-    margin:0% 0% 0% 2%;
-    padding: 5%;
     display: flex;
+    background-color: rgb(65, 65, 66);
 }
 button{
+    background-color: rgb(113, 113, 114);
     margin: 2%;
+    cursor: pointer;
 }
 #skill:hover{
     background-color: rgb(250, 86, 149);
@@ -118,13 +91,18 @@ button{
     background-color:rgb(24, 142, 253) ;
 }
 #exp:hover{
-    background-color:rgb(73, 243, 87) ;
+    background-color:rgb(102, 247, 114) ;
 }
 #cont:hover{
-    background-color:rgb(208, 63, 252) ;
+    background-color:rgb(217, 103, 252) ;
 }
 #in,#git{
     height: 4%;
     width: 4%;
+    background-color: white;
+}
+#in1{
+    height: 20px;
+    width: 20px;
     background-color: white;
 }
