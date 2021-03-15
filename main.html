@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     </head>
     <body>
         <div class="flex-container">
@@ -11,20 +13,25 @@
             <div class="flex-child-intro">
                 <name>LAVANYA C</name><br>
                 <student>CSE Student, BIT</student><br>
-                <a href="https://www.linkedin.com/in/lavanya-naik-164a28185">LinkedIn</a> |
-                <a href="https://github.com/Lavanya-C">GitHub</a><br><br>
-                <ul>
-                    <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</an></li>
-                <li><a href="#contact">Contact</a></li>
-                </ul>
-
+                <a href="https://www.linkedin.com/in/lavanya-naik-164a28185"><img id="in"src="in.png"></a> |
+                <a href="https://github.com/Lavanya-C"><img id="git" src="git.png"></a><br><br>
+                
             </div>
         </div>
+        <div class="all-buttons">
+            <button id="skill" onclick="mySkills()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">lightbulb</i>
+                <p style="font-size: 30px; color: white;">SKILLS</p></button>
+            <button id="edu" onclick="myEducation()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">school</i>
+                <p style="font-size: 30px; color: white;">EDUCATION</p></button>
+            <button id="project" onclick="myProject()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">auto_stories</i>
+                <p style="font-size: 30px; color: white;">PROJECTS</p></button>
+            <button id="exp" onclick="myExperience()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">work</i>
+                <p style="font-size: 30px; color: white;">EXPERIENCE</p></button>
+            <button id="cont" onclick="myContact()"><i class="material-icons" style="font-size: 150px; color: white; background-color: transparent;">contact_mail</i>
+                <p style="font-size: 30px; color: white;">CONTACT</p></button>
+        </div>
         <div class="bucket">
-        <div id="skills">
+        <div id="skills" style="display: none;">
         <article>
             <h2>Skills</h2>            
             <p>
@@ -35,7 +42,7 @@
             </p>
             </article>
         </div>
-        <div id="education">
+        <div id="education" style="display: none;">
             <article>
                 <h2>Education</h2>
             <p>B.E., Computer Science and Engineering : BIT, Bangalore-04<br>
@@ -44,7 +51,7 @@
             </p>
             </article>
         </div>
-        <div id="projects">
+        <div id="projects" style="display: none;">
             <h2>Projects</h2>
             <article>
             <h3>PetSpa Application</h3>
@@ -57,8 +64,7 @@
             <h3>Community Database Management Application</h3>
             <p>
                 Database Management Project.<br>
-                Developed to maintain the political database of constituencies and to provide information about the
-ward ,its details and welfare to its members.<br>
+                Developed to maintain the political database of constituencies and to provide information about the ward ,its details and welfare to its members.<br>
                 Tech stack: MySQL, HTML,CSS<br><br>
             </p>
         </article>
@@ -72,7 +78,7 @@ ward ,its details and welfare to its members.<br>
             <p>View Projects on <a href="https://github.com/Lavanya-C">GitHub</a></p>
         </article>
          </div> 
-         <div id="experience">
+         <div id="experience" style="display: none;">
             <article>
                 <h2>Experience</h2>
             <p>Intern Backend Developer Jan-Feb 2020<br>
@@ -84,7 +90,7 @@ ward ,its details and welfare to its members.<br>
             </p>
             </article>
         </div>
-        <div id="contact">
+        <div id="contact" style="display: none;">
             <article>
                 <h2>Contact</h2>
             <p>Email : lavanyanaik2002@gmail.com<br>
@@ -93,7 +99,49 @@ ward ,its details and welfare to its members.<br>
             </p>
             </article>
         </div>
-         </div>        
+         </div> 
+         <script>
+             function mySkills(){
+                 var x=document.getElementById('skills');
+                 if (x.style.display === "none") {
+                    x.style.display = "block";
+                    } else if(x.style.display==="block") {
+                     x.style.display = "none";
+                }
+             }
+             function myEducation(){
+                 var x=document.getElementById('education');
+                 if (x.style.display === "none") {
+                    x.style.display = "block";
+                    } else if(x.style.display==="block") {
+                     x.style.display = "none";
+                }
+             }
+             function myProject(){
+                 var x=document.getElementById('projects');
+                 if (x.style.display === "none") {
+                    x.style.display = "block";
+                    } else if(x.style.display==="block") {
+                     x.style.display = "none";
+                }
+             }
+             function myExperience(){
+                 var x=document.getElementById('experience');
+                 if (x.style.display === "none") {
+                    x.style.display = "block";
+                    } else if(x.style.display==="block") {
+                     x.style.display = "none";
+                }
+             }
+             function myContact(){
+                 var x=document.getElementById('contact');
+                 if (x.style.display === "none") {
+                    x.style.display = "block";
+                    } else if(x.style.display==="block") {
+                     x.style.display = "none";
+                }
+             }
+         </script>       
         
     </body>
     
