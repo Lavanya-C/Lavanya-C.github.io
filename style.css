@@ -77,6 +77,8 @@ a:link{
 .all-buttons{
     display: flex;
     background-color: rgb(65, 65, 66);
+    height: auto;
+    width: auto;
 }
 button{
     background-color: rgb(113, 113, 114);
