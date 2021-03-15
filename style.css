@@ -14,7 +14,7 @@ body{
     text-align: center;
     height: fit-content;
     width: fit-content;
-    float: left;
+    /* float: left; */
     padding: 3%;
     padding-bottom: 0%;
 }
@@ -40,7 +40,6 @@ name,student,a,article,p,h2,h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #projects,#education,#skills,#experience,#contact{
-    background-color: rgb(131, 129, 133);
     text-align: justify;
     height:auto;
     width: auto;
@@ -81,7 +80,7 @@ a:link{
     width: auto;
 }
 button{
-    background-color: rgb(113, 113, 114);
+    background-color: rgb(43, 92, 253);
     margin: 2%;
     cursor: pointer;
 }
@@ -101,8 +100,8 @@ button{
     background-color:rgb(217, 103, 252) ;
 }
 #in,#git{
-    height: 6%;
-    width: 6%;
+    height: 10%;
+    width: 10%;
     background-color: white;
 }
 #in1{
