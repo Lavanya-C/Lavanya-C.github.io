@@ -40,6 +40,8 @@ name,student,a,article,p,h2,h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #projects,#education,#skills,#experience,#contact{
+    background-color:rgb(78, 169, 253) ;
+
     text-align: justify;
     height:auto;
     width: auto;
@@ -47,21 +49,7 @@ name,student,a,article,p,h2,h3{
     padding: 2%;
     font-weight: bold;
 }
-#skills{
-    background-color: rgb(231, 154, 184);
-}
-#education{
-    background-color: rgb(179, 248, 225);
-}
-#projects{
-    background-color:rgb(136, 196, 252) ;
-}
-#experience{
-    background-color:rgb(182, 255, 188) ;
-}
-#contact{
-    background-color:rgb(232, 167, 252) ;
-}
+
 .bucket{
     height: fit-content;
     width: fit-content;
