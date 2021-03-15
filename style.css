@@ -20,7 +20,7 @@
     height:fit-content;
 }
 #img1{
-    height:50%;
+    height:70%;
     width: 100%;
     border-radius: 60%;
 }
@@ -43,21 +43,14 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 a{
     cursor: pointer;
-}
-button{
-    height: fit-content;
-    width: fit-content;
-    padding: 1%;
-    border:none;
-    outline: none;
-    cursor: pointer;
-    font-size: 20px;
+    background-color: transparent;
 
 }
+
 #projects,#education,#skills,#experience,#contact{
     background-color: rgb(131, 129, 133);
     height:auto;
-    width: fit-content;
+    width: auto;
     margin:2% 2% 2% 2%;
     padding: 5%;
     font-weight: bold;
@@ -68,4 +61,13 @@ button{
     float: left;
     margin:0% 0% 0% 2%;
     padding: 5%;
+}
+ul{
+    background-color: transparent;
+    padding: 0%;
+    height: fit-content;
+    width: fit-content;
+}
+li{
+    background-color: transparent;
 }
