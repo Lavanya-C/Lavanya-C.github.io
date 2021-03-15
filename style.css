@@ -48,7 +48,6 @@ a{
     background-color: transparent;
 
 }
-
 #projects,#education,#skills,#experience,#contact{
     background-color: rgb(131, 129, 133);
     height:auto;
@@ -56,6 +55,21 @@ a{
     margin:2% 2% 2% 2%;
     padding: 5%;
     font-weight: bold;
+}
+#skills{
+    background-color: ;
+}
+#education{
+
+}
+#projects{
+
+}
+#experience{
+
+}
+#contact{
+
 }
 .bucket{
     height: fit-content;
@@ -80,4 +94,36 @@ a:link{
 }
 li{
     background-color: transparent;
+}
+
+.all-buttons{
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin:0% 0% 0% 2%;
+    padding: 10%;
+    display: flex;
+}
+button{
+    margin: 2%;
+}
+#skill:hover{
+    background-color: rgb(250, 86, 149);
+}
+#edu:hover{
+    background-color: rgb(32, 243, 173);
+}
+#project:hover{
+    background-color:rgb(24, 142, 253) ;
+}
+#exp:hover{
+    background-color:rgb(73, 243, 87) ;
+}
+#cont:hover{
+    background-color:rgb(208, 63, 252) ;
+}
+#in,#git{
+    height: 4%;
+    width: 4%;
+    background-color: white;
 }
