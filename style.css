@@ -2,21 +2,22 @@
     background-color: rgb(83, 81, 81);
     height: 100%;
     width: 100%;
-
+    align-items: center;
 }
 .flex-container{
+    text-align: center;
     height: fit-content;
     width: fit-content;
     float: left;
     margin:0% 0% 0% 2%;
-    padding: 5%;
+    padding: 3%;
     padding-bottom: 0%;
     display: flex;
 }
 .flex-child-pic{
-    padding: 2%;
+    padding: 5%;
     background-color: rgb(131, 129, 133);
-    width:45%;
+    width:35%;
     height:fit-content;
 }
 #img1{
@@ -101,7 +102,7 @@ li{
     width: fit-content;
     float: left;
     margin:0% 0% 0% 2%;
-    padding: 10%;
+    padding: 5%;
     display: flex;
 }
 button{
