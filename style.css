@@ -6,7 +6,8 @@
 body{
     height: auto;
     width: auto;
-    background: -webkit-linear-gradient(400deg,rgb(39, 39, 39), rgb(83, 83, 83),rgb(48, 48, 48));
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(400deg,rgb(107, 107, 107),rgb(68, 68, 68), rgb(243, 242, 242),rgb(77, 76, 76),rgb(209, 207, 207));
 }
 .flex-container{
     text-align: center;
@@ -97,8 +98,8 @@ button{
     background-color:rgb(217, 103, 252) ;
 }
 #in,#git{
-    height: 4%;
-    width: 4%;
+    height: 6%;
+    width: 6%;
     background-color: white;
 }
 #in1{
