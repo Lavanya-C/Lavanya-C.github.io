@@ -6,7 +6,7 @@
 }
 body{
     height: auto;
-    width: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background: -webkit-linear-gradient(400deg,rgb(37, 163, 236),rgb(90, 113, 245), rgb(23, 220, 247),rgb(248, 245, 245),rgb(86, 110, 245));
 }
